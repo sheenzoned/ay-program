@@ -11,15 +11,23 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Join us in our AY Fellowship!" />
+      <section id="hero-section">
+        <div class="verse">
+          <img class="verse-img" src="/verse.svg"></img>
+        </div>
+      </section>
+      <section>
+        <Header title="AY Fellowship" />
         <p className="description">
-          April 9, 2022 <br/>
-          3:00 PM - 6:00 PM <br/>
-          Cebu City SDA Church
+        April 9, 2022 <br/>
+        3:00 PM - 6:00 PM <br/>
+        Cebu City SDA Church
         </p>
+      </section>
+       
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
