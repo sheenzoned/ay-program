@@ -19,7 +19,7 @@ export default function Home() {
       <section>
         <Header title="AY Fellowship" />
         <p className="description">
-        April 9, 2022 <br/>
+        June 25, 2022 <br/>
         3:00 PM - 6:00 PM <br/>
         Cebu City SDA Church
         </p>
